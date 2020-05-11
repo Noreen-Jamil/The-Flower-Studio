@@ -1,0 +1,395 @@
+	*{
+			box-sizing: border-box;
+		}
+		body{
+			margin:0;
+		}
+		header{
+			
+			display:flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		#logo{
+			width:20%;
+			margin-right: 25vw;
+
+		}
+		.payment-logos-size{
+			width:50px;
+		}
+		#payment-method{
+			display:inline-block;
+			text-align: center;
+			margin-right: 2%;
+		}
+		#western-union{
+			border-radius: 50%;
+			width:30px;
+
+		}
+		
+		#phone-number{
+			display:inline-block;
+			border: 2px solid #d0d0d0;
+			border-radius:25px;
+			padding:10px 10px;
+			margin-right: 2%;
+		}
+		#phone-number i{
+			color:#d0d0d0;
+		}
+		#phone-number:hover {
+			background-color:#84d6c5;
+			border:none; 
+			transition:background-color 1s;
+		}
+		#phone-number:hover i{
+			
+			color:white;
+			 
+		}
+		#phone-logo{
+			color:grey;
+			font-size: 18px;
+			margin:0 5px;
+		}
+
+		#p-header{
+			display: inline-block;
+			color:#957d7d;
+		}
+		#cart{
+			font-size: 40px;
+			margin-left:1%;
+			color:#84d6c5;
+		}
+		/* navigation bar */
+
+		nav{
+			border-top:1px solid grey;
+			border-bottom:1px solid grey;
+			text-align:center;
+			padding:10px 0;
+
+		}
+		.a-nav{
+			text-decoration: none;
+			font-size: 18px;
+			padding-right: 18px;
+			color:#7a7a7a;
+			font-family: 'Poppins', sans-serif;
+			
+		}
+		nav>a:hover{
+			color:grey;
+		}
+		#why-us{
+			background-color:#84d6c5 ;
+			color:white;
+			padding:5px 5px;
+			text-align: center;
+		}
+		#search{
+			color:#696464;
+			font-size: 22px;
+			text-align: center;
+			padding:0 5px;
+		}
+
+		section{
+			display:flex;
+			flex-wrap: wrap;
+			padding:0 1%;
+		}
+		#product-div{
+			padding:3% 5%;
+		}
+		#image-like-zoom{
+			position: relative;
+			
+		}
+		#product-image{
+			width:35vw;
+			height:80vh;
+			
+		}
+		
+		#heart{
+			position: absolute;
+			top:10px;
+			right:55px;
+			color:	#c4c1c1;
+			background-color:transparent; 
+			border:2px solid #c4c1c1;
+			border-radius: 50px;
+			padding:10px;
+			font-size: 18px;
+			opacity:0;
+		}
+			
+		#zoom{
+			position: absolute;
+			bottom:20px;
+			left:20px;
+			color:	#c4c1c1;
+			background-color:transparent; 
+			border:2px solid #c4c1c1;
+			border-radius: 50px;
+			padding:10px;
+			font-size: 22px;
+			opacity:0;
+			
+		}
+		
+		#heart:hover{
+			color:white;
+			background-color: #af1c39;
+			border:none;
+			
+		}
+		
+		#zoom:hover{
+			color:white;
+			background-color: #84d6c5 ;
+			border:none;
+			
+
+		}
+		 #image-like-zoom:hover  #heart {
+			transition: 1s;
+			opacity: 1;
+	
+		}
+		 #image-like-zoom:hover  #zoom {
+			transition: 1s;
+			opacity: 1;
+	
+		}
+		.product-sub-image{
+			width:10vw;
+			height:20vh;
+			margin-right: 2%;
+			margin-top: 2%;
+			border:1px solid grey;
+			opacity:0.4;
+		}
+		.product-sub-image:hover{
+			opacity: 1;
+			transition: opacity 1s;
+		}
+		#image-and-description-section{
+			
+			height:auto;
+			padding:1%;
+			//border:2px solid black;
+		}
+		#product-description-div> h2{
+			color: 	#585d5b;
+			font-family: 'Poppins', sans-serif;
+		}
+		#product-description-div> p{
+			color: #af1c39;
+			font-family: 'Baloo 2', cursive;
+
+		}
+		#product-description-div> h3{
+		color:#30c0ad;
+		
+		font-family: 'Roboto Slab', serif;
+			}
+		#product-description-div> i{
+			font-size: 18px;
+			
+			border-radius: 50px;
+			
+		}
+		#product-description-div> a{
+			color:#959595;
+			text-decoration: none;
+			font-family: 'Baloo 2', cursive;
+		}
+		
+		#facebook{
+			color:white;
+			background-color:#3a589d;
+			padding:12px 15px;
+		}
+		#twitter{
+			color:white;
+			background-color:#2478ba;
+			padding:13px;
+		}
+		#envelope{
+			color:white;
+			background-color: #111111;
+			padding:13px;
+		}
+		#linkedin{
+			color:white;
+			background-color: #0072b7;
+			padding:13px;
+		}
+		#pinterest{
+			color:white;
+			background-color: #cb2320;
+			padding:12px 15px;
+		}
+		
+		#product-description-div{
+			padding:2%;
+		}
+		#image-and-description-section>div{
+			width:48vw;
+			//border:1px solid black;
+			float:left;
+			
+
+		}
+		#image-and-description-section input{
+			width:6%;
+			height:5%;
+			text-align:center;
+			border:1px solid #d8d3d1;
+			border-left:none;
+			border-right: none;
+		}
+		 #add,#subtract{
+			width:4%;
+			height:5%;
+			text-align:center;
+			border:1px solid #d8d3d1;
+
+		}
+		#add-to-cart{
+			width:30%;
+			height:5%;
+			font-size: 18px;
+			margin-left: 1%;
+			background-color: #d26e4b;
+			color:white;
+			border:1px solid #d8d3d1;
+		}
+		
+		input::-webkit-inner-spin-button {
+			  -webkit-appearance: none;
+			  margin: 0;
+			}
+
+		
+
+		section#review{
+			//border:1px solid red;
+		}
+		#review{
+			margin-left: 5%;
+			border-top:1px solid #F1F5F9;
+			border-bottom:1px solid #F1F5F9;
+		}
+		#review>a{
+			text-decoration: none;
+			color:black;
+			font-size: 16px;
+			font-style: bold;
+			margin-right: 2%;
+			padding-top: 1%;
+			font-family: 'Roboto Slab', serif;
+			
+			
+		}
+		#review>p{
+			padding: 1% 5% 0 1%;
+			font-size: 14px;
+			color: #af1c39;
+			font-family: 'Baloo 2', cursive;
+			
+		}
+		
+		#related-products-section>div{
+			display:flex;
+			flex-wrap: wrap;
+			margin-right:-40px;
+			
+			
+		}
+		#related-products-section>h2{
+			margin-left:5%; 
+			font-family: 'Poppins', sans-serif;
+		}
+		figure{
+			position:relative;
+			//border:1px solid black;
+			
+		}
+		
+		figcaption{
+			text-align:center;
+			color:#35c1a4;
+			margin-top: 5%;
+		}
+
+		figure>img,figcaption{
+			width:14vw;
+			
+			
+		}
+		figure>img{
+			height:40vh;
+			}
+		figure>i{
+			font-size: 16px; 
+			color:#c4c1c1;
+			border:2px solid #c4c1c1;
+			border-radius: 50px;
+			padding:10px; 
+			position:absolute; 
+			top:10px; 
+			right:3px;
+			opacity: 0;
+		}
+		/* on figure child i hover color changes to red */ 
+		figure>i:hover{
+			color:white;
+			background-color: #af1c39;
+			border:none;
+			opacity:1;
+			
+		}
+		/* on figure hover  i display */ 
+		figure:hover i{
+			transition: 1s;
+			opacity:1;
+			
+		}
+		
+	figure>p{
+			font-size: 16px; 
+			color:white;
+			padding:10px; 
+			position:absolute; 
+			bottom:30px;
+			text-align:center;
+			width:14vw;
+			opacity: 0;
+			color:white;
+			background-color: #84d6c5 ;
+			font-family: 'Roboto Slab', serif;
+		}
+		
+		/* on figure hover  p display */ 
+		figure:hover p{
+			transition: 1s;
+			opacity:1;
+		}
+		footer{
+			background-color: #333333;
+			padding:3% 2%;
+			margin-top: 2%;
+		}
+		footer>a{
+			color:#7b7a7a;
+			text-decoration: none;
+			font-size: 14px;
+			font-family: 'Baloo 2', cursive;
+		}

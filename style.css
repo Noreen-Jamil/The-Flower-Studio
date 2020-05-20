@@ -70,19 +70,25 @@
 		nav{
 			border-top:1px solid grey;
 			border-bottom:1px solid grey;
-			text-align:center;
-			padding:10px 0;
+			justify-content: center;
+			display: flex;
 
 		}
-		.a-nav{
+		nav>ul{
+			list-style-type: none;
+		}
+		nav li{
+			display:inline-block;
+		}
+		nav a{
 			text-decoration: none;
 			font-size: 18px;
-			padding-right: 18px;
 			color:#7a7a7a;
 			font-family: 'Poppins', sans-serif;
-			
+			padding-right: 18px;
 		}
-		nav>a:hover{
+		
+		nav a:hover{
 			color:grey;
 		}
 		#why-us{
@@ -97,6 +103,7 @@
 			text-align: center;
 			padding:0 5px;
 		}
+
 
 		section{
 			display:flex;

@@ -4,6 +4,13 @@
 		body{
 			margin:0;
 		}
+		#sticky-div{
+			position: sticky;
+			background-color:white;
+			top:0;
+			box-shadow: 2px 0 10px 2px grey;
+			z-index: 2;
+		}
 		header{
 			
 			display:flex;
@@ -89,7 +96,7 @@
 		}
 		
 		nav a:hover{
-			color:grey;
+			color:black;
 		}
 		#why-us{
 			background-color:#84d6c5 ;
@@ -97,13 +104,13 @@
 			padding:5px 5px;
 			text-align: center;
 		}
+
 		#search{
 			color:#696464;
 			font-size: 22px;
 			text-align: center;
 			padding:0 5px;
 		}
-
 
 		section{
 			display:flex;
